@@ -31,6 +31,35 @@ repositories {
     }
 
     maven {
+        name = 'Curse Maven'
+        url = 'https://cursemaven.com'
+        content {
+            includeGroup 'curse.maven'
+        }
+    }
+
+    exclusiveContent {
+        forRepository {
+            maven {
+                name = 'Modrinth'
+                url = 'https://api.modrinth.com/maven'
+            }
+        }
+        filter {
+            includeGroup "maven.modrinth"
+        }
+    }
+
+    maven {
+        name = 'GeckoLib'
+        url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
+        content {
+            includeGroup('software.bernie.geckolib')
+            includeGroup('com.eliotlash.mclib')
+        }
+    }
+
+    maven {
         name = 'WhiteNoise' // Library for wendall911 mods
         url = 'https://raw.githubusercontent.com/wendall911/maven/main/'
     }

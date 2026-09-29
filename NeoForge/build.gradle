@@ -21,6 +21,19 @@ neoForge {
 
 dependencies {
     implementation group: 'technology.roughness.whitenoise', name: "whitenoise-${minecraft_version}-neoforge", version: "${whitenoise_version}"
+
+    if (System.getenv('DATA_GEN') == null) {
+        //runtimeOnly "maven.modrinth:glitchcore:${glitch_core_neoforge_version}"
+        //runtimeOnly "curse.maven:terrablender-940057:${terrablender_neoforge_version}"
+        //runtimeOnly "curse.maven:biomesoplenty-220318:${bop_neoforge_version}"
+        //runtimeOnly "curse.maven:regions-659110:${regions_neoforge_version}"
+        //runtimeOnly "curse.maven:terralith-513688:5512077"
+        //runtimeOnly "curse.maven:byg-1070751:${byg_neoforge_version}"
+        //runtimeOnly "curse.maven:tyg-962544:${tyg_neoforge_version}"
+        //runtimeOnly "curse.maven:corgilib-693313:${corgilib_neoforge_version}"
+        //runtimeOnly "software.bernie.geckolib:geckolib-neoforge-${minecraft_version}:${geckolib_neoforge_version}"
+
+    }
 }
 
 sourceSets.main.resources {
