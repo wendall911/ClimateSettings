@@ -1,0 +1,8 @@
+{
+  "day_night_offset": 12.0,
+  "humidity": 70.0,
+  "is_frozen": false,
+  "location": "climatesettings:warm_underground",
+  "season_variation": 40.0,
+  "temperature": 0.774
+}
