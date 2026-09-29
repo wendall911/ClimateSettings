@@ -68,6 +68,7 @@ public class BiomeCategoryProvider implements DataProvider {
         add(Biomes.MEADOW, BiomeCategory.Type.MOUNTAIN);
         add(Biomes.CHERRY_GROVE, BiomeCategory.Type.FOREST);
         add(Biomes.STONY_PEAKS, BiomeCategory.Type.MOUNTAIN);
+        add(Biomes.DAPPLED_FOREST, BiomeCategory.Type.COLD_FOREST);
         add(Biomes.RIVER, BiomeCategory.Type.RIVER);
         add(Biomes.FROZEN_RIVER, BiomeCategory.Type.FROZEN_RIVER);
         add(Biomes.BEACH, BiomeCategory.Type.BEACH);
@@ -85,6 +86,7 @@ public class BiomeCategoryProvider implements DataProvider {
         add(Biomes.DRIPSTONE_CAVES, BiomeCategory.Type.UNDERGROUND);
         add(Biomes.DEEP_DARK, BiomeCategory.Type.UNDERGROUND);
         add(Biomes.LUSH_CAVES, BiomeCategory.Type.UNDERGROUND);
+        add(Biomes.SULFUR_CAVES, BiomeCategory.Type.WARM_UNDERGROUND);
         add(Biomes.NETHER_WASTES, BiomeCategory.Type.NETHER);
         add(Biomes.WARPED_FOREST, BiomeCategory.Type.NETHER);
         add(Biomes.CRIMSON_FOREST, BiomeCategory.Type.NETHER);
@@ -175,6 +177,8 @@ public class BiomeCategoryProvider implements DataProvider {
         add(ModIntegration.bopLoc("jacaranda_glade"), BiomeCategory.Type.FOREST);
         add(ModIntegration.bopLoc("overgrown_greens"), BiomeCategory.Type.PLAINS);
         add(ModIntegration.bopLoc("wintry_origin_valley"), BiomeCategory.Type.COLD_FOREST);
+        add(ModIntegration.bopLoc("end_flats"), BiomeCategory.Type.THEEND);
+        add(ModIntegration.bopLoc("subtropics"), BiomeCategory.Type.RAINFOREST);
 
         // Oh The Biomes We've Gone
         add(ModIntegration.bygLoc("allium_shrubland"), BiomeCategory.Type.PLAINS);

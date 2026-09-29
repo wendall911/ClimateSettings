@@ -49,7 +49,9 @@ public class BiomeTypeDataProvider implements DataProvider {
         add(prefix(BiomeCategory.Type.WARM_RIVER.toString()), 0.651F, 70.0F, 40F, 10F, false);
         add(prefix(BiomeCategory.Type.BEACH.toString()), 0.663F, 70.0F, 40F, 10F, false);
         add(prefix(BiomeCategory.Type.FOREST.toString()), 0.663F, 50.0F, 40F, 12F, false);
+        add(prefix(BiomeCategory.Type.COLD_UNDERGROUND.toString()), 0.551F, 30.0F, 40F, 12F, false);
         add(prefix(BiomeCategory.Type.UNDERGROUND.toString()), 0.663F, 40.0F, 40F, 12F, false);
+        add(prefix(BiomeCategory.Type.WARM_UNDERGROUND.toString()), 0.774F, 70.0F, 40F, 12F, false);
         add(prefix(BiomeCategory.Type.SWAMP.toString()), 0.685F, 90.0F, 40F, 12F, false);
         add(prefix(BiomeCategory.Type.MUSHROOM.toString()), 0.685F, 70.0F, 40F, 12F, false);
         add(prefix(BiomeCategory.Type.WARM_OCEAN.toString()), 0.730F, 70.0F, 40F, 10F, false);
