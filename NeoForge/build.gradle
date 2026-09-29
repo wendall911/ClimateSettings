@@ -8,6 +8,9 @@ def identifier = "${mod_id}-${minecraft_version}-neoforge"
 neoForge {
     version = neoforge_version
     runs {
+        client {
+            client()
+        }
     }
     mods {
         "${mod_id}" {
